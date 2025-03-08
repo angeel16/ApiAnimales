@@ -1,0 +1,9 @@
+@Apianimales_HostAddress = http://localhost:5003
+
+GET {{Apianimales_HostAddress}}/api/Animal
+Accept: application/json
+###
+GET {{Apianimales_HostAddress}}/api/Animal/continente/Asia
+Accept: application/json
+###
+DELETE {{Apianimales_HostAddress}}/api/Animal/1
